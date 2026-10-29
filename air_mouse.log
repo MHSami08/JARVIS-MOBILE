@@ -1,0 +1,6 @@
+2026-10-27 17:25:56,530 [INFO] Hand tracker: tasks API.
+2026-10-27 17:25:59,943 [INFO] Camera ready (index 0, 640x480).
+2026-10-27 17:26:00,003 [INFO] Calibration started.
+2026-10-27 17:26:00,020 [INFO] Running. F8 = on/off, C = calibrate, Q = quit. Control is ON.
+2026-10-27 17:26:18,486 [INFO] Calibration: relaxed L=0.90 R=1.26 | pinch L=0.88 R=0.87
+2026-10-27 17:26:18,487 [WARNING] Calibration failed: pinch too close to relaxed hand.
