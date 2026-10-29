@@ -1,0 +1,12 @@
+# ── AirGesture Pro — Python dependencies ──────────────────────────────────────
+# `python setup.py` creates `.venv` and installs this file inside it.
+
+# Version bounds: the lower bound is what the app is developed against, the
+# upper bound prevents breaking major releases from bricking a fresh install.
+
+# ── Core: Computer Vision, Hand Tracking & Math ───────────────────────────────
+# numpy<2 is pinned below 2.0 because several mediapipe wheels are compiled
+# against the NumPy 1.x ABI; keeping it <2 avoids binary incompatibility errors.
+numpy>=1.24,<2
+opencv-python>=4.8,<5
+mediapipe>=0.10.9,<1
